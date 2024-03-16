@@ -14,11 +14,11 @@ This project integrates with the AlphaVantage API to retrieve daily stock market
    
 4. Create a virtual environment and install the required packages:
 
-  `python -m venv venv`
+   `python -m venv venv`
   
-  `source venv/bin/activate`  # On Windows, use `venv\Scripts\activate.bat`
+   `source venv/bin/activate`  # On Windows, use `venv\Scripts\activate.bat`
   
-  `pip install -r requirements.txt`
+   `pip install -r requirements.txt`
 
 5. Create a .env file in the project directory with the following format:
 
