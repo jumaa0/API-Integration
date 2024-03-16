@@ -15,14 +15,16 @@ This project integrates with the AlphaVantage API to retrieve daily stock market
 4. Create a virtual environment and install the required packages:
 
   `python -m venv venv`
+  
   `source venv/bin/activate`  # On Windows, use `venv\Scripts\activate.bat`
+  
   `pip install -r requirements.txt`
 
 5. Create a .env file in the project directory with the following format:
 
-  ALPHA_API_KEY=your_api_key_here
-  DB_NAME=your_database_name_here
-  MODEL_DIRECTORY=your_model_directory_path_here
+        ALPHA_API_KEY=your_api_key_here
+        DB_NAME=your_database_name_here
+        MODEL_DIRECTORY=your_model_directory_path_here
 
 ##Usage
 1. Setting Up the Environment
@@ -30,9 +32,9 @@ This project integrates with the AlphaVantage API to retrieve daily stock market
 Follow the installation instructions above.
 2. Using the API
 
-    Import the AlphaVantageAPI class from data.py.
-    Create an instance of the AlphaVantageAPI class with your API key.
-    Use the get_daily method to retrieve daily stock market data.
+   -Import the AlphaVantageAPI class from data.py.
+   -Create an instance of the AlphaVantageAPI class with your API key.
+   -Use the get_daily method to retrieve daily stock market data.
 
 3. Using the Database
 
@@ -47,10 +49,13 @@ Follow the installation instructions above.
 
 Testing
 
-    Use unittest framework for testing the project components.
-    Write test cases to cover different scenarios such as API call failures, data validation, and database operations.
-    Use mock library to simulate API responses and database interactions for testing purposes.
-    Run tests regularly to ensure the project's correctness and reliability.
+   Use unittest framework for testing the project components.
+   Write test cases to cover different scenarios such as API call failures, data validation, and database operations.
+   Use mock library to simulate API responses and database interactions for testing purposes.
+   Run tests regularly to ensure the project's correctness and reliability.
+
+Documentation
+[Documentation.pdf]
 
 Contributing
 
