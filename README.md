@@ -6,7 +6,7 @@ This project integrates with the AlphaVantage API to retrieve daily stock market
 
 1. Clone the repository:
 
-   `git clone https://github.com/your_username/api-integration-project.git`
+   `git clone https://github.com/jumaa0/API-Integration.git`
   
 2. Navigate to the project directory:
 
@@ -26,38 +26,43 @@ This project integrates with the AlphaVantage API to retrieve daily stock market
         DB_NAME=your_database_name_here
         MODEL_DIRECTORY=your_model_directory_path_here
 
-##Usage
-1. Setting Up the Environment
+
+## Usage
+
+1. **Setting Up the Environment**
 
 Follow the installation instructions above.
-2. Using the API
 
-   -Import the AlphaVantageAPI class from data.py.
-   -Create an instance of the AlphaVantageAPI class with your API key.
-   -Use the get_daily method to retrieve daily stock market data.
+2. **Using the API**
 
-3. Using the Database
+- Import the `AlphaVantageAPI` class from `data.py`.
+- Create an instance of the `AlphaVantageAPI` class with your API key.
+- Use the `get_daily` method to retrieve daily stock market data.
 
-    Import the SQLRepository class from data.py.
-    Create an instance of the SQLRepository class with a database connection.
-    Use the insert_table method to insert data into the database.
+3. **Using the Database**
 
-4. Additional Notes
+- Import the `SQLRepository` class from `data.py`.
+- Create an instance of the `SQLRepository` class with a database connection.
+- Use the `insert_table` method to insert data into the database.
 
-    Ensure that the .env file is properly configured with your API key and database information.
-    Check the AlphaVantage API documentation for additional query parameters and options.
+4. **Additional Notes**
 
-Testing
+- Ensure that the `.env` file is properly configured with your API key and database information.
+- Check the AlphaVantage API documentation for additional query parameters and options.
 
-   Use unittest framework for testing the project components.
-   Write test cases to cover different scenarios such as API call failures, data validation, and database operations.
-   Use mock library to simulate API responses and database interactions for testing purposes.
-   Run tests regularly to ensure the project's correctness and reliability.
+## Testing
 
-Documentation
-[Documentation.pdf]
+- Use the `unittest` framework for testing the project components.
+- Write test cases to cover different scenarios such as API call failures, data validation, and database operations.
+- Use the `mock` library to simulate API responses and database interactions for testing purposes.
+- Run tests regularly to ensure the project's correctness and reliability.
 
-Contributing
+## Documentation
+
+For detailed documentation, refer to [Documentation.pdf](Documentation.pdf).
+
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
 
