@@ -10,7 +10,7 @@ This project integrates with the AlphaVantage API to retrieve daily stock market
   
 2. Navigate to the project directory:
 
-   `cd api-integration-project`
+   `cd api-integration-project/Python`
    
 4. Create a virtual environment and install the required packages:
 
